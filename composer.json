@@ -37,8 +37,8 @@
         "drupal/consumers": "1.19.0",
         "drupal/contact_storage": "1.4.0",
         "drupal/context": "5.0.0-rc1",
-        "drupal/core-composer-scaffold": "11.1.2",
-        "drupal/core-recommended": "11.1.2",
+        "drupal/core-composer-scaffold": "11.0.12",
+        "drupal/core-recommended": "11.0.12",
         "drupal/crop": "2.4.0",
         "drupal/ctools": "4.1.0",
         "drupal/devel": "5.3.1",
@@ -119,7 +119,7 @@
         "webflo/drupal-finder": "^1.2"
     },
     "require-dev": {
-        "drupal/core-dev": "^11.1",
+        "drupal/core-dev": "^11.0",
         "drush/drush": "~13"
     },
     "replace": {
