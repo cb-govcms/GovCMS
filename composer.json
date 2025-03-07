@@ -36,7 +36,7 @@
         "drupal/consultation-consultation": "1.0.4",
         "drupal/consumers": "1.19.0",
         "drupal/contact_storage": "1.4.0",
-        "drupal/context": "5.0.0-rc1",
+        "drupal/context": "5.0.0-rc2",
         "drupal/core-composer-scaffold": "11.0.12",
         "drupal/core-recommended": "11.0.12",
         "drupal/crop": "2.4.0",
@@ -125,7 +125,6 @@
     "replace": {
         "drupal/config_perms": "*",
         "drupal/consultation-consultation": "*",
-        "drupal/context": "*",
         "drupal/google_analytics": "*",
         "drupal/linked_field": "*",
         "drupal/panels": "*",
