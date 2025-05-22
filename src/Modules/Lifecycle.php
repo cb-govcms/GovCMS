@@ -24,7 +24,7 @@ class Lifecycle {
     'tracker',
     'block_place',
     'aggregator',
-    'event_log_track_ui'
+    'event_log_track_ui',
   ];
 
   /**
