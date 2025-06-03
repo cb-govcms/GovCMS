@@ -68,7 +68,7 @@
         "drupal/key": "1.20.0",
         "drupal/layout_builder_modal": "2.0.0",
         "drupal/layout_builder_restrictions": "3.0.3",
-        "drupal/linked_field": "1.5.0",
+        "drupal/linked_field": "1.7.0",
         "drupal/linkit": "7.0.4",
         "drupal/login_security": "2.0.2",
         "drupal/mailsystem": "4.5.0",
@@ -125,7 +125,6 @@
     "replace": {
         "drupal/consultation-consultation": "*",
         "drupal/google_analytics": "*",
-        "drupal/linked_field": "*",
         "drupal/media_vimeo_domain_privacy": "*",
         "drupal/simplesamlphp_auth": "*",
         "simplesamlphp/simplesamlphp": "*"
