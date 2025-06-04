@@ -123,7 +123,6 @@
         "drush/drush": "~13"
     },
     "replace": {
-        "drupal/consultation-consultation": "*",
         "drupal/google_analytics": "*",
         "drupal/linked_field": "*",
         "drupal/media_vimeo_domain_privacy": "*",
