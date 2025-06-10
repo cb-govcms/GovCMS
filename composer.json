@@ -124,7 +124,6 @@
     },
     "replace": {
         "drupal/google_analytics": "*",
-        "drupal/media_vimeo_domain_privacy": "*",
         "drupal/simplesamlphp_auth": "*",
         "simplesamlphp/simplesamlphp": "*"
     },
