@@ -190,13 +190,14 @@ function govcms_update_10009() {
  * Uninstall Rest UI module if marked as 'obsolete'.
  * Uninstall jquery_ui_accordion module if marked as 'obsolete'.
  * Uninstall config_filter module if marked as 'obsolete'.
+ * Uninstall block_inactive_users module if marked as 'obsolete'.
  */
 function govcms_update_10010() {
   // Get the Lifecycle service.
   $lifecycle_service = \Drupal::service('govcms.modules.lifecycle');
 
   // List of modules to uninstall.
-  $modules_to_uninstall = ['config_filter','jquery_ui_accordion','restui','tour','help_topics','purge_purger_http','page_manager','page_manager_ui'];
+  $modules_to_uninstall = ['block_inactive_users','config_filter','jquery_ui_accordion','restui','tour','help_topics','purge_purger_http','page_manager','page_manager_ui'];
 
   // Call the service method to uninstall specified modules marked as 'obsolete'.
   $lifecycle_service->uninstallObsoleteModules($modules_to_uninstall);
