@@ -27,7 +27,6 @@ class Lifecycle {
     'block_inactive_users',
     'event_log_track_ui',
     'panels', 
-    'video_embed_field',
   ];
 
   /**
