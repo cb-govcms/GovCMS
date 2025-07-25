@@ -32,6 +32,7 @@ class Lifecycle {
     'panels',
     'permissions_by_term',
     'restui',
+    'clamav',
   ];
 
   /**
