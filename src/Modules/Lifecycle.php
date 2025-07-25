@@ -37,6 +37,7 @@ class Lifecycle {
     'govcms8_layouts',
     'redirect_404',
     'field_layout',
+    'graphql',
   ];
 
   /**
