@@ -34,6 +34,7 @@ class Lifecycle {
     'restui',
     'clamav',
     'govcms8_layouts',
+    'redirect_404',
   ];
 
   /**
