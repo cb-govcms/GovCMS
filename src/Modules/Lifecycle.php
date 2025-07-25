@@ -29,7 +29,7 @@ class Lifecycle {
     'panels',
     'video_embed_field',
     'jquery_ui_accordion',
-    'jquery_ui_resizable'
+    'jquery_ui_resizable',
   ];
 
   /**
