@@ -31,6 +31,7 @@ class Lifecycle {
     'jquery_ui_resizable',
     'panels',
     'permissions_by_term',
+    'permissions_by_entity',
     'restui',
     'clamav',
     'govcms8_layouts',
