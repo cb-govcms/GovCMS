@@ -27,7 +27,9 @@ class Lifecycle {
     'block_inactive_users',
     'event_log_track_ui',
     'panels',
-    'jquery_ui_resizable',
+    'video_embed_field',
+    'jquery_ui_accordion',
+    'jquery_ui_resizable'
   ];
 
   /**
