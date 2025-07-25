@@ -35,6 +35,7 @@ class Lifecycle {
     'clamav',
     'govcms8_layouts',
     'redirect_404',
+    'field_layout',
   ];
 
   /**
