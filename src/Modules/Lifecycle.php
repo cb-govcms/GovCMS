@@ -33,6 +33,7 @@ class Lifecycle {
     'permissions_by_term',
     'restui',
     'clamav',
+    'govcms8_layouts',
   ];
 
   /**
