@@ -183,19 +183,20 @@ function govcms_update_10009() {
 
 /**
  * Implements hook_update_N().
+<<<<<<< HEAD
  * Uninstall tour module if marked as 'obsolete'.
  * Uninstall help_topics module if marked as 'obsolete'.
  * Uninstall purge_purger_http module if marked as 'obsolete'.
  * Uninstall Page Manager modules if marked as 'obsolete'.
  * Uninstall Rest UI module if marked as 'obsolete'.
+ * Uninstall jquery_ui_accordion module if marked as 'obsolete'.
  */
 function govcms_update_10010() {
-function govcms_update_100XX() {
   // Get the Lifecycle service.
   $lifecycle_service = \Drupal::service('govcms.modules.lifecycle');
 
   // List of modules to uninstall.
-  $modules_to_uninstall = ['restui','tour','help_topics','purge_purger_http','page_manager','page_manager_ui'];
+  $modules_to_uninstall = ['jquery_ui_accordion','restui','tour','help_topics','purge_purger_http','page_manager','page_manager_ui'];
 
   // Call the service method to uninstall specified modules marked as 'obsolete'.
   $lifecycle_service->uninstallObsoleteModules($modules_to_uninstall);
