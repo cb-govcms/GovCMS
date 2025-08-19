@@ -123,9 +123,6 @@
         "drupal/core-dev": "^11.0",
         "drush/drush": "~13"
     },
-    "replace": {
-        "drupal/google_analytics": "*"
-    },
     "config": {
         "allow-plugins": {
             "composer/installers": true,
