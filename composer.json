@@ -124,9 +124,7 @@
         "drush/drush": "~13"
     },
     "replace": {
-        "drupal/google_analytics": "*",
-        "drupal/simplesamlphp_auth": "*",
-        "simplesamlphp/simplesamlphp": "*"
+        "drupal/google_analytics": "*"
     },
     "config": {
         "allow-plugins": {
