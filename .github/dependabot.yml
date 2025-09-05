@@ -2,6 +2,10 @@ version: 2
 updates:
 - package-ecosystem: composer
   directory: "/"
+  groups:
+    core:
+      patterns:
+        - "core*"
   schedule:
     interval: daily
     time: "16:10"
