@@ -6,9 +6,10 @@ updates:
     core:
       patterns:
         - "core*"
+      update-types: [minor, patch]
   schedule:
     interval: daily
-    time: "16:10"
+    time: "11:00"
     timezone: "Australia/Sydney"
   open-pull-requests-limit: 50
   target-branch: 3.x-develop
@@ -20,4 +21,5 @@ updates:
     timezone: "Australia/Sydney"
   open-pull-requests-limit: 50
   target-branch: 4.x-develop
+  labels: ['drupal11']
 
