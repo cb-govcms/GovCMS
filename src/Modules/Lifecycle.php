@@ -42,6 +42,7 @@ class Lifecycle {
     'statistics',
     'purge_purger_http',
     'page_manager_ui',
+    'page_manager',
   ];
 
   /**
