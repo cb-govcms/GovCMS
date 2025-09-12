@@ -39,6 +39,7 @@ class Lifecycle {
     'redirect_404',
     'field_layout',
     'graphql',
+    'statistics',
     'purge_purger_http',
   ];
 
