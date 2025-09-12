@@ -26,8 +26,19 @@ class Lifecycle {
     'aggregator',
     'block_inactive_users',
     'event_log_track_ui',
-    'panels', 
     'govcms8_foundations',
+    'video_embed_field',
+    'jquery_ui_accordion',
+    'jquery_ui_resizable',
+    'panels',
+    'permissions_by_term',
+    'permissions_by_entity',
+    'restui',
+    'clamav',
+    'govcms8_layouts',
+    'redirect_404',
+    'field_layout',
+    'graphql',
   ];
 
   /**
