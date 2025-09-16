@@ -27,37 +27,6 @@ function govcms_install() {
     'link' => ['uri' => 'internal:/node/add'],
   ])->save();
 
-  // Create footer menu links.
-  $footerMenuLinks = ['Accessibility', 'Copyright', 'Disclaimers', 'Privacy'];
-  foreach ($footerMenuLinks as $linkTitle) {
-    MenuLinkContent::create([
-      'title' => $linkTitle,
-      'link' => ['uri' => 'https://www.govcms.gov.au'],
-      'menu_name' => 'footer',
-    ])->save();
-  }
-
-  // Create custom menu links.
-  $customMenuLinks = [
-    [
-      'title' => 'Our community',
-      'path' => '/our-community',
-      'menu_name' => 'govcms-community',
-    ],
-    [
-      'title' => 'About GovCMS',
-      'path' => '/about',
-      'menu_name' => 'govcms-about',
-    ],
-  ];
-  foreach ($customMenuLinks as $customLink) {
-    MenuLinkContent::create([
-      'title' => $customLink['title'],
-      'link' => ['uri' => 'https://www.govcms.gov.au' . $customLink['path']],
-      'menu_name' => $customLink['menu_name'],
-    ])->save();
-  }
-
   // Skip further actions during config sync.
   if (\Drupal::isConfigSyncing()) {
     return;
