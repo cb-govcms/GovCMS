@@ -26,6 +26,7 @@ class Lifecycle {
     'aggregator',
     'block_inactive_users',
     'event_log_track_ui',
+    'govcms8_foundations',
     'video_embed_field',
     'jquery_ui_accordion',
     'jquery_ui_resizable',
@@ -38,6 +39,9 @@ class Lifecycle {
     'redirect_404',
     'field_layout',
     'graphql',
+    'purge_purger_http',
+    'page_manager_ui',
+    'page_manager',
   ];
 
   /**
