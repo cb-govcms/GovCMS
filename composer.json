@@ -113,7 +113,7 @@
         "drupal/twig_tweak": "3.4.1",
         "drupal/username_enumeration_prevention": "1.4.0",
         "drupal/views_data_export": "1.6",
-        "drupal/webform": "6.3.0-beta4",
+        "drupal/webform": "6.3.0-beta5",
         "govcms-assets/chosen": "2.2.1",
         "oomphinc/composer-installers-extender": "^2.0",
         "webflo/drupal-finder": "^1.2"
