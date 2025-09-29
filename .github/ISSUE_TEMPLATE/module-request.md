@@ -9,7 +9,7 @@ assignees: ''
 
 ** What value does this module/package add to GovCMS?
 
-** Is the module Drupal 10 compatible?
+** Is the module Drupal 11 compatible?
 
 ** Please provide a brief outline of what this module does.
 
