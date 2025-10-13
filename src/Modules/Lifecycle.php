@@ -43,6 +43,9 @@ class Lifecycle {
     'purge_purger_http',
     'page_manager_ui',
     'page_manager',
+    'action',
+    'help_topics',
+    'tour',
   ];
 
   /**
