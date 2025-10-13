@@ -46,6 +46,9 @@ class Lifecycle {
     'panelizer_quickedit',
     'panels_ipe',
     'services_tfa',
+    'action',
+    'help_topics',
+    'tour',
   ];
 
   /**
