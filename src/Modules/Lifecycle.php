@@ -46,6 +46,11 @@ class Lifecycle {
     'action',
     'help_topics',
     'tour',
+    'webform_icheck',
+    'webform_location_geocomplete',
+    'webform_location_places',
+    'webform_shortcuts',
+    'webform_toggles',
   ];
 
   /**
