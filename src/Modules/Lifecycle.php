@@ -15,15 +15,9 @@ class Lifecycle {
 
   // Obsolete modules.
   const OBSOLETE_MODULES = [
-    'ckeditor',
     'config_filter',
-    'forum',
     'mailsystem',
     'panelizer',
-    'swiftmailer',
-    'tracker',
-    'block_place',
-    'aggregator',
     'block_inactive_users',
     'event_log_track_ui',
     'govcms8_foundations',
