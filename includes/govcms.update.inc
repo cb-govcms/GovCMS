@@ -5,8 +5,6 @@
  * GovCMS update helper functions.
  */
 
- use Drupal\Core\Extension\ExtensionLifecycle;
-
 /**
  * Implements hook_update_last_removed().
  */
