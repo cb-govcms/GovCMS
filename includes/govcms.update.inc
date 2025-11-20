@@ -183,13 +183,14 @@ function govcms_update_10009() {
 /**
  * Implements hook_update_N().
  * Uninstall tour module if marked as 'obsolete'.
+ * Uninstall help_topics module if marked as 'obsolete'.
  */
-function govcms_update_100XX() {
+function govcms_update_10010() {
   // Get the Lifecycle service.
   $lifecycle_service = \Drupal::service('govcms.modules.lifecycle');
 
   // List of modules to uninstall.
-  $modules_to_uninstall = ['tour'];
+  $modules_to_uninstall = ['tour','help_topics'];
 
   // Call the service method to uninstall specified modules marked as 'obsolete'.
   $lifecycle_service->uninstallObsoleteModules($modules_to_uninstall);
