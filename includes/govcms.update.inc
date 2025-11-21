@@ -180,17 +180,45 @@ function govcms_update_10009() {
   // Call the service method to uninstall specified modules marked as 'obsolete'.
   $lifecycle_service->uninstallObsoleteModules($modules_to_uninstall);
 }
+
 /**
  * Implements hook_update_N().
+ * Uninstall panels module if marked as 'obsolete'.
+ * Uninstall config_filter module if marked as 'obsolete'.
+ * Uninstall jquery_ui_accordion module if marked as 'obsolete'.
+ * Uninstall Rest UI module if marked as 'obsolete'.
+ * Uninstall purge_purger_http module if marked as 'obsolete'.
+ * Uninstall help_topics module if marked as 'obsolete'.
  * Uninstall tour module if marked as 'obsolete'.
  */
-function govcms_update_100XX() {
+function govcms_update_10010() {
   // Get the Lifecycle service.
   $lifecycle_service = \Drupal::service('govcms.modules.lifecycle');
-
+   
   // List of modules to uninstall.
-  $modules_to_uninstall = ['tour'];
+  $modules_to_uninstall = ['config_filter',
+                           'panels',
+                           'jquery_ui_accordion',
+                           'restui',
+                           'purge_purger_http',
+                           'help_topics',
+                           'tour'];
 
   // Call the service method to uninstall specified modules marked as 'obsolete'.
   $lifecycle_service->uninstallObsoleteModules($modules_to_uninstall);
+}
+
+/**
+ * Implements hook_update_N().
+ * Update Stage File Proxy config if missing 'proxy_headers' setting.
+ */
+function govcms_update_10011() {
+  $config_factory = \Drupal::service('config.factory');
+  $config_name = 'stage_file_proxy.settings';
+  $existing_configs = $config_factory->loadMultiple([$config_name]);
+
+  if (!empty($existing_configs) && is_null($existing_configs[$config_name]->get('proxy_headers'))) {
+    $config = $config_factory->getEditable($config_name);
+    $config->set('proxy_headers', '')->save();
+  }
 }
