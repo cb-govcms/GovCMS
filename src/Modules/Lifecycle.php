@@ -43,6 +43,14 @@ class Lifecycle {
     'purge_purger_http',
     'page_manager_ui',
     'page_manager',
+    'action',
+    'help_topics',
+    'tour',
+    'webform_icheck',
+    'webform_location_geocomplete',
+    'webform_location_places',
+    'webform_shortcuts',
+    'webform_toggles',
   ];
 
   /**
