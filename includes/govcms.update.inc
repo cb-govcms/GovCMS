@@ -191,8 +191,7 @@ function govcms_update_10010() {
   $lifecycle_service = \Drupal::service('govcms.modules.lifecycle');
 
   // List of modules to uninstall.
-  $modules_to_uninstall = ['config_filter'];
-  $modules_to_uninstall = ['panels'];
+  $modules_to_uninstall = ['config_filter','panels'];
 
   // Call the service method to uninstall specified modules marked as 'obsolete'.
   $lifecycle_service->uninstallObsoleteModules($modules_to_uninstall);
