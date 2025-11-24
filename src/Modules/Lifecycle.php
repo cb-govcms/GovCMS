@@ -43,6 +43,8 @@ class Lifecycle {
     'purge_purger_http',
     'page_manager_ui',
     'page_manager',
+    'panelizer_quickedit',
+    'panels_ipe',
     'services_tfa',
   ];
 
