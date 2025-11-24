@@ -19,7 +19,7 @@ Key features of GovCMS include:
 
 GovCMS Slack channel:
 
-https://govcmschat.slack.com/archives/C01BD9B3V5W
+https://govcmschat.slack.com/archives/C3YKT5JJJ
 
 ## Getting started
 
@@ -38,7 +38,7 @@ More documents can be found in:
 ## Troubleshooting and Contributing
 
 If you're encountering some
-oddities, [here's a list of resolutions](https://github.com/GovCMS/GovCMS/wiki/Troubleshooting) to some of the problems
+oddities, [here's a list of resolutions](https://github.com/GovCMS/GovCMS/wiki/1.4-Troubleshooting) to some of the problems
 you may be experiencing.
 
 ### Contributing to GovCMS
@@ -48,7 +48,7 @@ on github where they will be addressed by the GovCMS team.
 
 ### Patching GovCMS
 
-Because GovCMS is a [Drupal distribution](https://www.drupal.org/documentation/build/distributions), modules and
+Because GovCMS is a [Drupal distribution](https://www.drupal.org/docs/getting-started/drupal-distributions), modules and
 configurations are not added directly to the codebase. Rather, they are referenced within the composer.json file.
 
 Any alterations to Drupal core or contributed modules must have an associated [drupal.org](https://www.drupal.org) issue

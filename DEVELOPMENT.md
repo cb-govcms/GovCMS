@@ -29,7 +29,7 @@ Follow the below steps to set up your local development environment for GovCMS:
 1. Clone the GovCMS project from GitHub by running the following command:
 
     ```console
-    git clone -b 3.x-develop git@github.com:GovCMS/GovCMS.git
+    git clone -b 4.x-develop git@github.com:GovCMS/GovCMS.git
     ```
 
 2. Navigate to the cloned project directory:
@@ -49,7 +49,7 @@ Follow the below steps to set up your local development environment for GovCMS:
 1. Clone the GovCMS project from GitHub by running the following command:
 
     ```console
-    git clone -b 3.x-develop git@github.com:GovCMS/GovCMS.git
+    git clone -b 4.x-develop git@github.com:GovCMS/GovCMS.git
     ```
 
 2. Navigate to the cloned project directory:
@@ -61,7 +61,6 @@ Follow the below steps to set up your local development environment for GovCMS:
 3. Start the Docker containers by running the following command:
 
     ```console
-    cd govcms
     docker compose up -d
     ```
 
