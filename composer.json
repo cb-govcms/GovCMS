@@ -58,6 +58,7 @@
         "drupal/events_log_track": "4.0.2",
         "drupal/externalauth": "2.0.8",
         "drupal/facets": "2.0.10",
+        "drupal/fakeobjects": "2.0.1",
         "drupal/field_group": "4.0.0",
         "drupal/file_to_media": "1.0.3",
         "drupal/focal_point": "2.1.2",
