@@ -22,6 +22,7 @@
         "cweagans/composer-patches": "^1.7",
         "drupal/address": "2.0.4",
         "drupal/admin_toolbar": "3.6.2",
+        "drupal/anchor_link": "3.0.3",
         "drupal/bigmenu": "2.1.0",
         "drupal/block_inactive_users": "2.8.0",
         "drupal/book": "2.0.2",
