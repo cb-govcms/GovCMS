@@ -17,25 +17,14 @@ class Lifecycle {
   const OBSOLETE_MODULES = [
     'block_inactive_users',
     'clamav',
-    'config_filter',
     'event_log_track_ui',
     'field_layout',
     'govcms8_foundations',
     'govcms8_layouts',
-    'graphql',
-    'jquery_ui_accordion',
-    'jquery_ui_resizable',
     'mailsystem',
-    'page_manager',
-    'page_manager_ui',
     'panelizer',
     'panels',
-    'permissions_by_entity',
-    'permissions_by_term',
-    'purge_purger_http',
     'redirect_404',
-    'restui',
-    'video_embed_field',
   ];
 
   /**
