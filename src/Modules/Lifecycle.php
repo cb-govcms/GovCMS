@@ -17,6 +17,7 @@ class Lifecycle {
   const OBSOLETE_MODULES = [
     'block_inactive_users',
     'clamav',
+    'config_filter',
     'event_log_track_ui',
     'field_layout',
     'govcms8_foundations',
