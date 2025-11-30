@@ -55,6 +55,12 @@ function govcms_install() {
       'use_default' => FALSE,
     ])
     ->save(TRUE);
+  \Drupal::configFactory()
+    ->getEditable('olivero.settings')
+    ->set('favicon', [
+      'use_default' => FALSE,
+    ])
+    ->save(TRUE);
 
   // Grant default permissions.
   govcms_default_permissions();
