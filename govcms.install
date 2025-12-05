@@ -32,13 +32,6 @@ function govcms_install() {
     return;
   }
 
-  // Set front page to "node".
-  $frontPagePath = '/node';
-  \Drupal::configFactory()
-    ->getEditable('system.site')
-    ->set('page.front', $frontPagePath)
-    ->save(TRUE);
-
   // Set paths for the logo, favicon, and README file based on install directory.
   $govcmsPath = \Drupal::service('extension.list.profile')->getPath('govcms');
   \Drupal::configFactory()
@@ -52,6 +45,12 @@ function govcms_install() {
       'mimetype' => 'image/vnd.microsoft.icon',
       'path' => $govcmsPath . '/favicon.ico',
       'url' => '',
+      'use_default' => FALSE,
+    ])
+    ->save(TRUE);
+  \Drupal::configFactory()
+    ->getEditable('olivero.settings')
+    ->set('favicon', [
       'use_default' => FALSE,
     ])
     ->save(TRUE);
