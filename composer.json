@@ -176,9 +176,6 @@
             },
             "drupal/tfa": {
                 "Create Email one-time-code Validation Plugin & related Setup Plugin - https://www.drupal.org/project/tfa/issues/2930541": "https://www.drupal.org/files/issues/2023-07-19/tfa-2930541-81.patch"
-            },
-            "drupal/core": {
-                "A patch that doesn't exist": "https://git.drupalcode.org/project/drupal/-/merge_requests/13023.diff-404"
             }
         }
     },
