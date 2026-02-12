@@ -124,6 +124,7 @@
     },
     "require-dev": {
         "drupal/core-dev": "^11.0",
+        "drupal/httpav": "^1.3",
         "drush/drush": "~13"
     },
     "config": {
