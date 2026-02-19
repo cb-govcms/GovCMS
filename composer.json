@@ -128,6 +128,9 @@
         "drupal/httpav": "^1.3",
         "drush/drush": "~13"
     },
+    "replace": {
+        "drupal/ban": "*"
+    },
     "config": {
         "allow-plugins": {
             "composer/installers": true,
