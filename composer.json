@@ -110,6 +110,7 @@
         "drupal/shield": "1.8.0",
         "drupal/simple_oauth": "6.1.0",
         "drupal/simple_sitemap": "4.2.2",
+        "drupal/simplesamlphp_auth": "4.1.0",
         "drupal/symfony_mailer": "1.6.2",
         "drupal/tfa": "1.12.0",
         "drupal/token": "1.17.0",
@@ -121,6 +122,7 @@
         "govcms-assets/chosen": "3.0.1",
         "govcms-assets/dropzone": "5.9.3",
         "oomphinc/composer-installers-extender": "^2.0",
+        "simplesamlphp/simplesamlphp": "2.5.0-rc5",
         "webflo/drupal-finder": "^1.2"
     },
     "require-dev": {
@@ -141,6 +143,8 @@
             "drupal/core-vendor-hardening": true,
             "phpstan/extension-installer": true,
             "php-http/discovery": true,
+            "simplesamlphp/composer-module-installer": false,
+            "simplesamlphp/composer-xmlprovider-installer": false,
             "tbachert/spi": true
         },
         "bin-dir": "bin/",
