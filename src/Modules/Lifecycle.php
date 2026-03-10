@@ -15,15 +15,12 @@ class Lifecycle {
 
   // Obsolete modules.
   const OBSOLETE_MODULES = [
-    'block_inactive_users',
     'clamav',
     'event_log_track_ui',
     'field_layout',
     'govcms8_foundations',
     'govcms8_layouts',
     'mailsystem',
-    'panelizer',
-    'panels',
     'redirect_404',
   ];
 
