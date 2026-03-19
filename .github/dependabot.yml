@@ -11,9 +11,7 @@ updates:
         - "drupal/core*"
   schedule:
     interval: daily
-    time: "06:00"
+    time: "16:00"
     timezone: "Australia/Sydney"
   open-pull-requests-limit: 50
   target-branch: 4.x-develop
-  reviewers:
-  - pandaskii
