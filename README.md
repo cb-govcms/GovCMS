@@ -37,8 +37,8 @@ More documents can be found in:
 
 ## Troubleshooting and Contributing
 
-If you're encountering some
-oddities, [here's a list of resolutions](https://github.com/GovCMS/GovCMS/wiki/1.4-Troubleshooting) to some of the problems
+If you're encountering some oddities,
+[here's a list of resolutions](https://github.com/GovCMS/GovCMS/wiki/1.4-Troubleshooting) to some of the problems
 you may be experiencing.
 
 ### Contributing to GovCMS
