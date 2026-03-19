@@ -13,5 +13,5 @@ updates:
     interval: daily
     time: "16:00"
     timezone: "Australia/Sydney"
-  open-pull-requests-limit: 50
+  open-pull-requests-limit: 30
   target-branch: 4.x-develop
