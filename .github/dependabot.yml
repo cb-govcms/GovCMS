@@ -21,7 +21,7 @@ updates:
     timezone: "Australia/Sydney"
   registries:
     - drupal-packages
-  only-allow:
-      - dependency-type: direct
+  allow:
+      - dependency-type: "direct"
   open-pull-requests-limit: 30
   target-branch: 4.x-develop
