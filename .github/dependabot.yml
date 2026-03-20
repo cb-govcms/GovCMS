@@ -1,4 +1,8 @@
 version: 2
+registries:
+  drupal-packages:
+    type: composer
+    url: https://packages.drupal.org/8
 updates:
 - package-ecosystem: composer
   directory: "/"
@@ -13,5 +17,7 @@ updates:
     interval: daily
     time: "16:00"
     timezone: "Australia/Sydney"
+  registries:
+    - drupal-packages
   open-pull-requests-limit: 30
   target-branch: 4.x-develop
