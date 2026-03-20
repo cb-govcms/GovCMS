@@ -3,6 +3,8 @@ registries:
   drupal-packages:
     type: composer-repository
     url: https://packages.drupal.org/8
+    username: "token"
+    password: "any-password"
 updates:
 - package-ecosystem: composer
   directory: "/"
