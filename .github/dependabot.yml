@@ -15,9 +15,6 @@ updates:
     drupal-core:
       patterns:
         - "drupal/core*"
-    drupal-modules:
-      patterns:
-        - "drupal/*"
   schedule:
     interval: daily
     time: "16:00"
