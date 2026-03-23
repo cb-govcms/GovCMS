@@ -1,10 +1,4 @@
 version: 2
-registries:
-  drupal-packages:
-    type: composer-repository
-    url: https://packages.drupal.org/8
-    username: "token"
-    password: ${{ secrets.DUMMY }}
 updates:
 - package-ecosystem: composer
   directory: "/"
@@ -19,9 +13,5 @@ updates:
     interval: daily
     time: "16:00"
     timezone: "Australia/Sydney"
-  registries:
-    - drupal-packages
-  allow:
-      - dependency-type: "direct"
   open-pull-requests-limit: 30
   target-branch: 4.x-develop
