@@ -2,7 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
   "enabledManagers": ["composer"],
-  "baseBranches": ["testing-renovate-bot"],
+  "baseBranches": ["4.x-develop"],
   
   "commitHourlyLimit": 0,
   "prConcurrentLimit": 0,
