@@ -1,0 +1,35 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "enabledManagers": ["composer"],
+  "baseBranches": ["testing-renovate-bot"],
+  
+  "commitHourlyLimit": 0,
+  "prConcurrentLimit": 0,
+  "prHourlyLimit": 0,
+  
+  "timezone": "Australia/Sydney",
+  "schedule": ["* 22-23,0-6 * * *"],
+  
+  "commitMessageAction": "Update", 
+  "commitMessageTopic": "{{depName}}",
+  "commitMessageExtra": "from {{currentVersion}} to {{newVersion}}",
+  
+  "labels": ["drupal11"],
+  
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["^drupal/core"],
+      "groupName": "Drupal core"
+    },
+    {
+      "matchPackagePatterns": ["^drupal/"],
+      "commitMessageTopic": "{{depName}} module"
+    },
+    {
+      "matchPackagePatterns": ["^drupal/core"],
+      "matchUpdateTypes": ["major"],
+      "enabled": false
+    }
+  ]
+}
