@@ -2,7 +2,9 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
   "enabledManagers": ["composer"],
-  "baseBranches": ["4.x-develop"],
+  "baseBranchPatterns": [
+    "4.x-develop"
+  ],
   
   "commitHourlyLimit": 0,
   "prConcurrentLimit": 0,
@@ -19,17 +21,23 @@
   
   "packageRules": [
     {
-      "matchPackagePatterns": ["^drupal/core"],
-      "groupName": "Drupal core"
+      "groupName": "Drupal core",
+      "matchPackageNames": [
+        "/^drupal/core/"
+      ]
     },
     {
-      "matchPackagePatterns": ["^drupal/"],
-      "commitMessageTopic": "{{depName}} module"
+      "commitMessageTopic": "{{depName}} module",
+      "matchPackageNames": [
+        "/^drupal//"
+      ]
     },
     {
-      "matchPackagePatterns": ["^drupal/core"],
       "matchUpdateTypes": ["major"],
-      "enabled": false
+      "enabled": false,
+      "matchPackageNames": [
+        "/^drupal/core/"
+      ]
     }
   ]
 }
